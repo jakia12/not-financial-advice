@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Win Big</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="./images/win.png" type="image/x-icon" />
+    <!-- bootstrap icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- css link  -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sour Gummy&family=Press+Start+2P&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+      /* font-family: "Sour Gummy", sans-serif; */
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styler.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="background-color: #ffffff">
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top px-md-5 tektur"
+      style="
+        padding-top: 13px !important;
+        z-index: 900;
+        padding-bottom: 2px !important;
+      "
+    >
+      <div class="container-fluid">
+        <div
+          class="d-flex p-1"
+          style="
+            background-color: #ffffff;
+            border-radius: 20px;
+            border-bottom: 8px solid black;
+            border-right: 8px solid black;
+          "
+        >
+          <a class="mb-1" href="#" style="text-decoration: none">
+            <img
+              style="border-radius: 50%"
+              src="images/win.png"
+              class="navlogo"
+              alt=""
+            />
+          </a>
+          <h1
+            style="font-family: 'Sour Gummy', sans-serif"
+            class="navh1 mx-2 public-sans-extrabold"
+          >
+            Win Big
+          </h1>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="material-symbols-outlined aka text-white">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mx-auto mb-2 mb-lg-0"
+            style="
+              background-color: #ffffff;
+              border-radius: 20px;
+              border-bottom: 8px solid black;
+              border-right: 8px solid black;
+            "
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link public-sans-semi fs-5 item mt-lg-0 mt-0 text-black"
+                href="#hero"
+                style="margin: 0 10px"
+              >
+                About
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link public-sans-semi fs-5 item mt-lg-0 mt-0 text-black"
+                href="#token"
+                style="margin: 0 10px"
+              >
+                Tokenomics
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link public-sans-semi fs-5 item mt-lg-0 mt-0 text-black"
+                href="#htb"
+                style="margin: 0 10px"
+              >
+                How To Buy
+              </a>
+            </li>
+            <!-- 
+          <li class="nav-item">
+            <a class="nav-link public-sans-semi fs-5 item mt-lg-0 mt-0 text-black" href="#faq" style="margin: 0 10px;">
+              FAQS
+            </a>
+          </li> -->
+          </ul>
+
+          <a href="buylink" target="_blank" style="text-decoration: none">
+            <button class="is-normal nav-link conbtn mb-1">
+              <p class="mb-0 pb-0 public-sans-extrabold">BUY NOW</p>
+            </button></a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="above11">
+      <div class="container mt-5">
+        <div
+          class="row justify-content-center align-items-center flex-md-row flex"
+        >
+          <!-- <div
+          class="col-12 col-md-5 d-flex justify-content-md-end justify-content-center animate-on-scroll animate__animated"
+          data-animation="animate__fadeInLeft">
+          <img src="./images/hero.png"
+            style="width: 90%; height: auto; border-radius: 20px; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);"
+            alt="">
+        </div> -->
+
+          <div
+            class="col-12 col-md-10 d-flex flex-md-row flex-column justify-content-start align-items-center mt-md-0 mt-4"
+            style="
+              background-color: #fff;
+              border-radius: 20px;
+              border-bottom: 8px solid black;
+              border-right: 8px solid black;
+              height: 100%;
+            "
+          >
+            <div class="col-md-6 pt-5 pb-5">
+              <div class="d-flex justify-content-center">
+                <img
+                  src="./images/win.png"
+                  style="width: 90%; height: auto; border-radius: 50%"
+                  alt=""
+                />
+              </div>
+              <a
+                href="buylink"
+                class="d-md-none d-flex justify-content-center mt-5"
+                target="_blank"
+                style="text-decoration: none"
+              >
+                <button
+                  class="p-2 fs-5 text-black public-sans-semi migglebtn animate-on-scroll animate__animated"
+                  data-animation="animate__fadeInUp"
+                >
+                  Buy $WIN
+                </button>
+              </a>
+            </div>
+
+            <div
+              class="col-md-6 p-4 d-flex justify-content-start align-items-center flex-column order2"
+            >
+              <!-- <div class="d-flex align-items-center p-1 px-3 animate-on-scroll animate__animated"
+              data-animation="animate__fadeInUp" style="background-color: #1900ff; border-radius: 10px;">
+              <div class="position-relative me-3">
+                <div class="circle"
+                  style="width: 10px; height: 10px; background-color: #00ff00; border-radius: 50%; animation: pulse 2s infinite;">
+                </div>
+                <div class="signal"
+                  style="position: absolute; top: -5px; left: -5px; width: 20px; height: 20px; border: 2px solid #00ff00; border-radius: 50%; animation: signal 2s infinite;">
+                </div>
+
+              </div>
+              <p class="public-sans-extrabold mb-0 text-white" style="font-size: 17px;">$11,555,000 Mcap</p>
+            </div> -->
+
+              <div>
+                <p
+                  class="public-sans-extrabold text-start animate-on-scroll animate__animated"
+                  data-animation="animate__fadeInUp"
+                  style="font-size: 60px; font-family: 'Sour Gummy'"
+                >
+                  WIN BIG
+                </p>
+
+                <p
+                  style="font-family: 'Sour Gummy', sans-serif"
+                  class="fs-5 public-sans-semi text-start animate-on-scroll animate__animated"
+                  data-animation="animate__fadeInUp"
+                >
+                  Pull the Lever, Win Big! <br />
+                  1000x Glory Awaits!
+                </p>
+                <a
+                  href="buylink"
+                  class="d-md-block d-none"
+                  target="_blank"
+                  style="text-decoration: none"
+                >
+                  <button
+                    style="font-family: 'Sour Gummy', sans-serif"
+                    class="p-2 fs-5 text-black public-sans-semi migglebtn animate-on-scroll animate__animated"
+                    data-animation="animate__fadeInUp"
+                  >
+                    Buy $WIN
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- links -->
+        <div
+          class="row justify-content-center mt-5 mb-5 animate-on-scroll animate__animated"
+          data-animation="animate__fadeInUp"
+        >
+          <div class="col-12 col-md-6 d-flex justify-content-center mt-5">
+            <a class="mx-3 up1" href="ttlink" target="_blank">
+              <i class="fa-brands fa-x-twitter fa-3x text-white"></i>
+            </a>
+
+            <a class="mx-3 up1" href="tglink" target="_blank">
+              <i class="fa-brands fa-telegram fa-3x text-white"></i>
+            </a>
+
+            <a class="mx-3 up1" href="dexslink" target="_blank">
+              <img
+                src="./images/dexscreen.png"
+                style="width: 45px; height: auto"
+                alt=""
+              />
+            </a>
+
+            <a class="mx-3 up1" href="chartlink" target="_blank">
+              <img
+                src="./images/dextool.png"
+                style="width: 45px; height: auto"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- slider -->
+      <marquee
+        style="font-family: 'Sour Gummy', sans-serif"
+        class="marquee2 public-sans-extrabold"
+        behavior=""
+        direction=""
+        scrollamount="7"
+        onmouseout="start()"
+        onmouseover="stop()"
+      >
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+        <span>$WIN</span>
+      </marquee>
+    </section>
+
+    <!-- buy section  -->
+    <section id="hero">
+      <div class="container pt-5">
+        <div class="row justify-content-center">
+          <!-- style="font-family: 'Sour Gummy', sans-serif;" -->
+
+          <div
+            class="col-12 col-md-7 d-flex justify-content-center flex-column"
+          >
+            <div class="pt-4 pb-4">
+              <p
+                class="public-sans-extrabold text-center text-black mb-0 animate-on-scroll animate__animated"
+                data-animation="animate__fadeInDown"
+                style="font-size: 53px; font-family: 'Sour Gummy', sans-serif"
+              >
+                About <span style="color: #0c3ca5">$WIN</span>
+              </p>
+
+              <!-- <p class="fs-5 public-sans-semi text-center text-black mt-0 animate-on-scroll animate__animated"
+              data-animation="animate__fadeInUp">Following in the Paws of a Legend</p> -->
+
+              <p
+                style="font-family: 'Sour Gummy', sans-serif;  text-align: center"
+                class="text-black fs-6 public-sans-semi animate-on-scroll animate__animated"
+                data-animation="animate__fadeInUp"
+              >
+                Step into the world of high-stakes meme degen culture! Follow
+                the ultimate slot-pulling warrior, fueled by moonshot dreams and
+                green candles. Spin for glory with $WIF and $CG multipliers,
+                chasing the legendary 1000x win while drooling over the promise
+                of untold riches. Luck isn't just a game—it’s a lifestyle.
+                <br />
+                <br />
+                The legend of the Culture — now and always — continues.
+              </p>
+            </div>
+
+            <div
+              class="animate-on-scroll animate__animated"
+              data-animation="animate__fadeInUp"
+            >
+              <img
+                src="./images/win.png"
+                style="width: 100%; height: auto; border-radius: 20px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <!-- <section id="about">
+    <div class="container">
+      <div class="row mt-5 justify-content-center">
+
+        <div class="col-12 col-md-4">
+          <div class="animate-on-scroll animate__animated" data-animation="animate__fadeInLeft">
+            <img src="./images/artwork.gif" style="width: 100%; height: auto; border-radius: 15px;" alt="">
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-6 d-flex justify-content-md-start justify-content-center mt-md-0 mt-4 align-items-center animate-on-scroll animate__animated"
+          data-animation="animate__fadeInRight">
+          <div class="left22">
+            <div class="col-md-4 p-2 px-2" style="background-color: #E6EDFA; border-radius: 10px;">
+              <p class=" mb-0 public-sans-semi" style="font-size: 15px; color: #1900ff;"><i
+                  class="fa-solid fa-circle mx-2" style="font-size: 7px;"></i>
+                ARTWORK</p>
+            </div>
+
+            <div class="mt-4">
+              <p style="font-family: 'Sour Gummy', sans-serif;" class="fs-1 text-black text-start public-sans-extrabold">Baby Miggles Artwork
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+  </section> -->
+
+    <!-- Tokenomics -->
+    <section
+      id="token"
+      style="
+        background-color: #4464b1;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        overflow: hidden;
+      "
+    >
+      <div class="container">
+        <div
+          class="d-flex justify-content-center animate-on-scroll animate__animated"
+          data-animation="animate__fadeInDown"
+        >
+          <p
+            style="font-family: 'Sour Gummy', sans-serif"
+            class="fs-1 text-white text-center public-sans-extrabold"
+          >
+            Tokenomics
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6">
+            <div
+              class="p-4 animate-on-scroll animate__animated"
+              data-animation="animate__fadeInUp"
+              style="
+                --angle: 270deg;
+                background: linear-gradient(
+                  var(--angle),
+                  #0d4997,
+                  #1b68cc,
+                  #2c7ce6,
+                  #6b9ee0
+                );
+                border-radius: 15px;
+                border: 1px solid #ffffff;
+              "
+            >
+              <div class="d-flex justify-content-between">
+                <p
+                  style="font-family: 'Sour Gummy', sans-serif"
+                  class="fs-4 text-white public-sans-semi mb-0"
+                >
+                  Coins Minted
+                </p>
+                <p
+                  style="font-family: 'Sour Gummy', sans-serif"
+                  class="fs-4 text-white public-sans-semi mb-0"
+                >
+                  1,000,000,000
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="p-4 animate-on-scroll animate__animated mt-3"
+              data-animation="animate__fadeInUp"
+              style="
+                --angle: 270deg;
+                background: linear-gradient(
+                  var(--angle),
+                  #0d4997,
+                  #1b68cc,
+                  #2c7ce6,
+                  #6b9ee0
+                );
+                border-radius: 15px;
+                border: 1px solid #ffffff;
+              "
+            >
+              <div class="d-flex justify-content-between">
+                <p
+                  style="font-family: 'Sour Gummy', sans-serif"
+                  class="fs-4 text-white public-sans-semi mb-0"
+                >
+                  Buy / Sell Tax
+                </p>
+                <p
+                  style="font-family: 'Sour Gummy', sans-serif"
+                  class="fs-4 text-white public-sans-semi mb-0"
+                >
+                  0%
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="p-4 animate-on-scroll animate__animated mt-3"
+              data-animation="animate__fadeInUp"
+              style="
+                --angle: 270deg;
+                background: linear-gradient(
+                  var(--angle),
+                  #0d4997,
+                  #1b68cc,
+                  #2c7ce6,
+                  #6b9ee0
+                );
+                border-radius: 15px;
+                border: 1px solid #ffffff;
+              "
+            >
+              <div class="d-flex justify-content-between">
+                <p
+                  style="font-family: 'Sour Gummy', sans-serif"
+                  class="fs-4 text-white public-sans-semi mb-0"
+                >
+                  LP
+                </p>
+                <p
+                  style="font-family: 'Sour Gummy', sans-serif"
+                  class="fs-4 text-white public-sans-semi mb-0"
+                >
+                  BURNED
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row justify-content-center mt-5">
+          <div class="col-12 col-md-3">
+            <p
+              style="font-family: 'Sour Gummy', sans-serif"
+              class="text-white text-center public-sans-regular fs-4"
+            >
+              <i class="bi bi-check-circle"></i> No Hidden Owner
+            </p>
+          </div>
+
+          <div class="col-12 col-md-3">
+            <p
+              style="font-family: 'Sour Gummy', sans-serif"
+              class="text-white text-center public-sans-regular fs-4"
+            >
+              <i class="bi bi-check-circle"></i> Ownership Renounced
+            </p>
+          </div>
+
+          <div class="col-12 col-md-3">
+            <p
+              style="font-family: 'Sour Gummy', sans-serif"
+              class="text-white text-center public-sans-regular fs-4"
+            >
+              <i class="bi bi-check-circle"></i> Open Source
+            </p>
+          </div>
+
+          <div class="col-12 col-md-3">
+            <p
+              style="font-family: 'Sour Gummy', sans-serif"
+              class="text-white text-center public-sans-regular fs-4"
+            >
+              <i class="bi bi-check-circle"></i> LP Burned
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- htb -->
+    <section
+      id="htb"
+      class="pt-5 pb-5"
+      style="background-color: #fff; overflow: hidden"
+    >
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-around">
+          <p class="fs-1 text-black text-center public-sans-extrabold">
+            How To Buy
+          </p>
+
+          <div class="row justify-content-around">
+            <div
+              class="col-12 col-md-4 animate-on-scroll animate__animated"
+              data-animation="animate__fadeInLeft"
+            >
+              <div class="htb11 h-100">
+                <div class="mt-4 d-flex justify-content-center">
+                  <img
+                    src="./images/phantom.png"
+                    style="width: 250px; height: auto"
+                    alt=""
+                    class="htb-image"
+                  />
+                </div>
+                <p
+                  class="text-white text-center public-sans-semi fs-2 text-start mt-4"
+                >
+                  1. Install Phantom Wallet!
+                </p>
+                <p class="fs-5 public-sans-semi text-start text-white mb-5">
+                  First Things First, You'll Need To Install Phantom Wallet .
+                  Just Grab It From The App Store Or As A Browser Extension.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-md-4 mt-md-0 mt-4 animate-on-scroll animate__animated"
+              data-animation="animate__fadeInUp"
+            >
+              <div class="htb22 h-100">
+                <div class="mt-4 d-flex justify-content-center">
+                  <img
+                    src="./images/solana.png"
+                    style="width: 250px; height: auto"
+                    class="htb-image"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="text-white text-center public-sans-semi fs-2 text-start mt-4"
+                >
+                  2. Get Some SOL
+                </p>
+                <p class="fs-5 public-sans-semi text-start text-white mb-5">
+                  Transfer SOL Directly To Your Wallet
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-md-4 mt-md-0 mt-4 animate-on-scroll animate__animated"
+              data-animation="animate__fadeInRight"
+            >
+              <div class="htb33 h-100">
+                <div class="mt-4 d-flex justify-content-center">
+                  <img
+                    src="./images/win.png"
+                    style="width: 250px; height: auto; border-radius: 50%"
+                    class="htb-image"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="text-white text-center public-sans-semi fs-2 text-start mt-4"
+                >
+                  3. Grab Some $WIN - Join the Party!
+                </p>
+                <p class="fs-5 public-sans-semi text-start text-white mb-5">
+                  Swap Your SOL For $WIN Using The Official CA Found On Our
+                  Page!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contract address -->
+    <section style="background-color: #ffff">
+      <div class="container">
+        <div>
+          <p
+            class="fs-1 text-black text-center public-sans-extrabold animate-on-scroll animate__animated"
+            data-animation="animate__fadeInDown"
+          >
+            Contract Address
+          </p>
+        </div>
+        <div class="row justify-content-center pb-5">
+          <div
+            class="col-12 col-md-7 animate-on-scroll animate__animated"
+            data-animation="animate__fadeInUp"
+          >
+            <div
+              class="p-4 d-flex justify-content-center flex-row"
+              style="
+                --angle: 45deg;
+                background: linear-gradient(
+                  var(--angle),
+                  #647eb6,
+                  #2e4a85,
+                  #284687,
+                  #1f4599
+                );
+                border-radius: 15px;
+              "
+            >
+              <p
+                class="fs-4 public-sans-semi text-white mb-0"
+                style="word-break: break-all"
+              >
+                xxxxxxxxxxxxxxxxxxxxxx
+                <i
+                  onclick="copyToClipboard1()"
+                  class="fas fa-copy mx-2 copy222"
+                ></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- swap functionality -->
+    <section style="background-color: #ffff">
+      <div class="container">
+        <div>
+          <p
+            class="fs-1 text-black text-center public-sans-extrabold animate-on-scroll animate__animated"
+            data-animation="animate__fadeInDown"
+          >
+            Swap Functionality
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10">
+            <iframe
+              src="https://raydium.io/swap/?inputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&outputMint=xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+              width="100%"
+              height="680px"
+              style="
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              "
+              title="Uniswap Interface"
+              loading="lazy"
+              scrolling="no"
+              onload="this.contentWindow.scrollTo(0,0);"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <p
+        class="fs-3 public-sans-semi animate-on-scroll animate__animated"
+        data-animation="animate__fadeInDown"
+      >
+        Disclaimer
+      </p>
+      <p class="public-sans-regular fs-5">
+        Win Big is a memecoin, and like all cryptocurrencies, it carries
+        inherent risk. Always conduct your own research and never invest more
+        than you can afford to lose.
+      </p>
+
+      <p class="public-sans-semi fs-5">
+        © 2024 Win Big. All Rights Reserved
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js link -->
+    <script src="./script.js"></script>
+
+    <!-- SCROLL -->
+    <script
+      src="https://kit.fontawesome.com/0d90558ff8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/0d90558ff8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
