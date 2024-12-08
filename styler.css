@@ -1,5 +1,4 @@
 .btn222 {
-
   border-radius: 15px;
   font-size: 50px !important;
   box-shadow: inset -2px -2px 4px black;
@@ -21,7 +20,6 @@
   cursor: pointer;
 }
 
-
 .up2 {
   transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
   border: 2px solid rgba(255, 0, 0, 0);
@@ -38,23 +36,21 @@
 
 .card22 {
   background-color: rgb(13, 47, 87);
-  background-image: url('./images/12.jpg');
+  background-image: url("./images/12.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 15px;
   border: 4px solid rgb(193, 42, 42);
 }
 
-
 .above11 {
   padding-bottom: 50px;
   padding-top: 130px;
-  background: linear-gradient(to right, #944afd, #40b8b7, #14f194);
+  /* background: linear-gradient(to right, #944afd, #40b8b7, #14f194); */
   /* background-color: #4464b1; */
   /* background-image: url('./images/above3.png'); */
   background-position: center;
   background-size: cover;
-
 }
 
 .timer22 {
@@ -62,7 +58,6 @@
   border: 5px solid rgb(212, 47, 47);
   border-radius: 25px;
   box-shadow: 2px 2px 8px black;
-
 }
 
 .timer-box1 {
@@ -118,11 +113,6 @@
   }
 }
 
-
-
-
-
-
 /* roadmap */
 /* Timeline container styling */
 .timeline-container {
@@ -158,8 +148,10 @@
   z-index: -1;
   border-radius: 50%;
   position: absolute;
-  background: conic-gradient(var(--color) var(--angle),
-      transparent 0deg 360deg);
+  background: conic-gradient(
+    var(--color) var(--angle),
+    transparent 0deg 360deg
+  );
   animation: rotateBorder 1s linear var(--delay) forwards;
 }
 
@@ -285,8 +277,6 @@
   transform-origin: top;
 }
 
-
-
 .timeline-point:nth-child(even) .popup:before {
   content: "";
   width: 63px;
@@ -305,10 +295,6 @@
   transform: rotateX(100deg);
   transform-origin: top;
 }
-
-
-
-
 
 /* Hover effect for timeline points */
 .timeline-point:hover {
@@ -402,9 +388,7 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
-
   .timeline-container {
     flex-direction: column;
     height: auto;
@@ -426,21 +410,17 @@
     width: 84px;
   }
 
-  .left22{
+  .left22 {
     margin-left: 0px !important;
   }
 
   .timeline-point:nth-child(even) .popup:before {
-
     left: -32% !important;
-
   }
-
 
   .logoText {
     font-size: 34px;
   }
-
 
   .navlogo {
     height: 36px !important;
@@ -456,7 +436,6 @@
     text-align: start !important;
   }
 }
-
 
 /* navbar code */
 .navbar {
@@ -490,7 +469,6 @@
   transform: translateY(-7px);
   text-decoration: none !important;
 }
-
 
 .navlogo {
   height: 60px;
@@ -531,11 +509,10 @@
   color: #fff !important;
 }
 
-
-
-
 /* htb */
-.htb11, .htb22, .htb33 {
+.htb11,
+.htb22,
+.htb33 {
   border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -547,18 +524,20 @@
 /* background: linear-gradient(to right, #944afd, #40b8b7, #14f194); */
 
 .htb11 {
-  background: linear-gradient(135deg, #7FFFD4, #14f194, #40b8b7, #944afd);
+  background: linear-gradient(135deg, #b4b4b4, #6769d6, #222cb8, #030192);
 }
 
 .htb22 {
-  background: linear-gradient(135deg, #7FFFD4, #14f194, #40b8b7, #944afd);
+  background: linear-gradient(135deg, #b4b4b4, #6769d6, #222cb8, #030192);
 }
 
 .htb33 {
-  background: linear-gradient(135deg, #7FFFD4, #14f194, #40b8b7, #944afd);
+  background: linear-gradient(135deg, #b4b4b4, #6769d6, #222cb8, #030192);
 }
 
-.htb11:hover, .htb22:hover, .htb33:hover {
+.htb11:hover,
+.htb22:hover,
+.htb33:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
@@ -570,8 +549,13 @@
 }
 
 @keyframes zoom {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.1); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }
 
 .htb-image {
@@ -581,11 +565,15 @@
 }
 
 @media (max-width: 768px) {
-  .htb11, .htb22, .htb33 {
+  .htb11,
+  .htb22,
+  .htb33 {
     margin-bottom: 15px;
   }
-  
-  .htb11:hover, .htb22:hover, .htb33:hover {
+
+  .htb11:hover,
+  .htb22:hover,
+  .htb33:hover {
     transform: translateY(-5px);
   }
 }
@@ -600,8 +588,6 @@
   cursor: pointer;
 }
 
-
-
 /*start styles*/
 .accordion {
   display: flex;
@@ -611,7 +597,6 @@
 }
 
 .accordion__item {
- 
   border-radius: 10px;
   overflow: hidden;
   background-color: #1a79b4;
@@ -619,7 +604,6 @@
   box-shadow: 2px 2px 8px black;
   animation: gradientShift 3s ease infinite;
 }
-
 
 .accordion__header {
   padding: 20px 25px;
@@ -631,11 +615,12 @@
 }
 
 .accordion__header::after {
-  content: '';
-  background: url(https://www.svgrepo.com/show/357035/angle-down.svg) no-repeat center;
+  content: "";
+  background: url(https://www.svgrepo.com/show/357035/angle-down.svg) no-repeat
+    center;
   width: 20px;
   height: 20px;
-  transition: .4s;
+  transition: 0.4s;
   display: inline-block;
   position: absolute;
   right: 20px;
@@ -644,7 +629,6 @@
   filter: brightness(0) invert(1) contrast(300%) saturate(200%); /* Increased contrast and saturation for bolder arrow */
 }
 
-
 .accordion__header.active::after {
   transform: rotateX(180deg);
 }
@@ -652,12 +636,11 @@
 .accordion__item .accordion__content {
   padding: 0 25px;
   max-height: 0;
-  transition: .5s;
+  transition: 0.5s;
   overflow: hidden;
   font-size: 18px;
   color: #fff;
 }
-
 
 .migglebtn {
   background-color: #f1f1f1;
@@ -673,8 +656,6 @@
   color: #fff !important;
 }
 
-
-
-.left22{
+.left22 {
   margin-left: 40px;
 }

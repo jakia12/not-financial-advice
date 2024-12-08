@@ -1,5 +1,6 @@
 body {
-  background-color: #197eb0;
+  background-color: #a30000;
+  /* background: rgba(0,0,0,0.4), rgba(0,0,0,0.3), url('./images/back.jpg'); */
 }
 
 /* Style the scrollbar track (background area) */
@@ -149,7 +150,7 @@ body {
 
 #hero {
   /* background-color: #fff; */
-  background: linear-gradient(to right, #944afd, #40b8b7, #14f194);
+  /* background: linear-gradient(to right, #944afd, #40b8b7, #14f194); */
   /* background-image: url("./images/18.png"); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -319,7 +320,7 @@ body {
 
 #htb {
   padding: 100px 0;
-  background: linear-gradient(to right, #944afd, #40b8b7, #14f194);
+  /* background: linear-gradient(to right, #944afd, #40b8b7, #14f194); */
   /* background-color: #197eb0; */
 }
 
