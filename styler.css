@@ -49,7 +49,8 @@
 .above11 {
   padding-bottom: 50px;
   padding-top: 130px;
-  background-color: #4464b1;
+  background: linear-gradient(to right, #944afd, #40b8b7, #14f194);
+  /* background-color: #4464b1; */
   /* background-image: url('./images/above3.png'); */
   background-position: center;
   background-size: cover;
@@ -510,7 +511,8 @@
   /* border: 4px solid #DF2B26 !important; */
   font-size: 25px !important;
   letter-spacing: 2px !important;
-  background: radial-gradient(92.05% 200% at 94.89% -132.81%, #E08986 67.59%, #86A1D2), radial-gradient(71.74% 117.31% at 32.95% 0%, #86A1D2 21.25%, #6f88b7 88.62%), radial-gradient(39.2% 181% at 5.68% 100%, #394d71, #3a4e74), radial-gradient(31.25% 236.33% at 96.59% 31.25%, #ffffff4d, #fff0) !important;
+  background: rgb(39, 125, 255);
+  /* background: radial-gradient(92.05% 200% at 94.89% -132.81%, #E08986 67.59%, #86A1D2), radial-gradient(71.74% 117.31% at 32.95% 0%, #86A1D2 21.25%, #6f88b7 88.62%), radial-gradient(39.2% 181% at 5.68% 100%, #394d71, #3a4e74), radial-gradient(31.25% 236.33% at 96.59% 31.25%, #ffffff4d, #fff0) !important; */
   color: #fff !important;
   box-shadow: inset 0px -5px 0px 0px rgba(0, 0, 0, 0.341);
   overflow: hidden !important;
@@ -520,7 +522,7 @@
 }
 
 .conbtn:hover {
-  background: radial-gradient(92.05% 200% at 94.89% -132.81%, #c57673 67.59%, #a15b58), radial-gradient(71.74% 117.31% at 32.95% 0%, #cc6969eb 21.25%, #cc875491 88.62%), radial-gradient(39.2% 181% at 5.68% 100%, #c3c81c82, #cc7e3700), radial-gradient(31.25% 236.33% at 96.59% 31.25%, #cccccc4d, #ccc0) !important;
+  /* background: radial-gradient(92.05% 200% at 94.89% -132.81%, #c57673 67.59%, #a15b58), radial-gradient(71.74% 117.31% at 32.95% 0%, #cc6969eb 21.25%, #cc875491 88.62%), radial-gradient(39.2% 181% at 5.68% 100%, #c3c81c82, #cc7e3700), radial-gradient(31.25% 236.33% at 96.59% 31.25%, #cccccc4d, #ccc0) !important; */
 
   /* box-shadow: 0 0 30px 5px #df2c26a2 !important; */
   -webkit-transition: all 0.2s ease-out !important;
@@ -542,16 +544,18 @@
   margin-bottom: 20px;
 }
 
+/* background: linear-gradient(to right, #944afd, #40b8b7, #14f194); */
+
 .htb11 {
-  background: linear-gradient(135deg, #7FFFD4, #87CEEB, #4169E1, #000080);
+  background: linear-gradient(135deg, #7FFFD4, #14f194, #40b8b7, #944afd);
 }
 
 .htb22 {
-  background: linear-gradient(135deg, #FFE4B5, #FFA07A, #FF7F50, #FF6347);
+  background: linear-gradient(135deg, #7FFFD4, #14f194, #40b8b7, #944afd);
 }
 
 .htb33 {
-  background: linear-gradient(135deg, #FFB6C1, #FF69B4, #FF1493, #C71585);
+  background: linear-gradient(135deg, #7FFFD4, #14f194, #40b8b7, #944afd);
 }
 
 .htb11:hover, .htb22:hover, .htb33:hover {
